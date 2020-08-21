@@ -11,7 +11,15 @@ const NavLink = ({ linkname, goto }) => {
 
   return (
     <div
-      style={{ fontSize: "14px", cursor: "pointer" }}
+      className="nav-link"
+      style={{
+        fontSize: "14px",
+        cursor: "pointer",
+        padding: "5px",
+        backgroundColor: "gray",
+        float: "left",
+        margin: "2px"
+      }}
       onClick={() => setNavigate(true)}
     >
       {redirectinig()}
