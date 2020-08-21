@@ -13,10 +13,10 @@ const NavLink = ({ linkname, goto }) => {
     <div
       className="nav-link"
       style={{
+        fontWeight:"bold",
         fontSize: "14px",
         cursor: "pointer",
         padding: "5px",
-        backgroundColor: "gray",
         float: "left",
         margin: "2px"
       }}

@@ -1,10 +1,10 @@
 /* CSS */
-
-/* .nav-link {
-
-} */
+.nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .nav-link:hover {
-    color: blueviolet;
-    text-decoration: underline;
+  color: rgb(17, 166, 224);
+  text-decoration: underline;
+  font-weight: bold;
 }
