@@ -1,12 +1,12 @@
 import React from "react";
-import Footer from "../components/Footer";
+//import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 import { CONTACT, IOSAPPS, CONCEPTS } from "../Constants";
 
 const EmersonDev = () => {
   let headerLinks = [
-    { name: IOSAPPS, goto: "wwww - ios" },
+    { name: IOSAPPS, goto: "/naamerica" },
     { name: CONTACT, goto: "wwww - contact" },
     { name: CONCEPTS, goto: "wwww - concepts" },
   ];
@@ -17,7 +17,8 @@ const EmersonDev = () => {
 
       <br />
       <br />
-      <Footer />
+
+      {/* <Footer /> */}
     </div>
   );
 };

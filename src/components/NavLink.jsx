@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Redirect } from "react-router-dom";
 
 const NavLink = ({ linkname, goto }) => {
   const [navigate, setNavigate] = useState(false);
@@ -6,6 +7,7 @@ const NavLink = ({ linkname, goto }) => {
   const redirectinig = () => {
     if (navigate) {
       console.log("went to ", goto);
+      return <Redirect to={goto} />;
     }
   };
 
@@ -13,12 +15,12 @@ const NavLink = ({ linkname, goto }) => {
     <div
       className="nav-link"
       style={{
-        fontWeight:"bold",
+        fontWeight: "bold",
         fontSize: "14px",
         cursor: "pointer",
         padding: "5px",
         float: "left",
-        margin: "2px"
+        margin: "2px",
       }}
       onClick={() => setNavigate(true)}
     >

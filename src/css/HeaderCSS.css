@@ -1,0 +1,14 @@
+/* CSS */
+
+.header-class {
+    background-color: rgb(69, 126, 177);
+    display: grid;
+    height: 130px;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.header-logo {
+    background-color: brown;
+
+}
