@@ -25,7 +25,7 @@ const Header = ({ headerLinks }) => {
   // return
   return (
     <div className="header-class">
-      <Logo logoSrc="/imgz/logos/lacounty.png" logoName="Emerson DEV" />
+      <Logo logoSrc="./imgz/logos/lacounty.png" logoName="Emerson DEV" />
 
       {linksRender()}
     </div>

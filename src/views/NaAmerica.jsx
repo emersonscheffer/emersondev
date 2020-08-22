@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import NavLink from "../components/NavLink";
 
 const NaAmerica = () => {
-    return <div>
-        NaAmerica
+  return (
+    <div>
+      <NavLink linkname="Test" />
     </div>
-}
+  );
+};
 
-export default NaAmerica
+export default NaAmerica;
