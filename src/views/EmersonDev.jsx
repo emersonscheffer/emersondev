@@ -6,7 +6,7 @@ import { CONTACT, IOSAPPS, CONCEPTS } from "../Constants";
 
 const EmersonDev = () => {
   let headerLinks = [
-    { name: IOSAPPS, goto: "/naamerica" },
+    { name: IOSAPPS, goto: "/iosapps" },
     { name: CONTACT, goto: "" },
     { name: CONCEPTS, goto: "" },
   ];

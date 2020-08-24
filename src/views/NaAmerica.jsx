@@ -1,10 +1,14 @@
 import React from "react";
-import NavLink from "../components/NavLink";
+
+import TopicBar from "../components/TopicBar";
+import MyNavLink from "../components/MyNavLink";
 
 const NaAmerica = () => {
   return (
     <div>
-      <NavLink linkname="Test" />
+      na amer ica
+      <TopicBar />
+      <MyNavLink linkname="Backkkc" />
     </div>
   );
 };

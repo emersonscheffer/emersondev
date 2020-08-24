@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { Redirect } from "react-router-dom";
 
-const NavLink = ({ linkname, goto }) => {
+const MyNavLink = ({ linkname, goto }) => {
   const [navigate, setNavigate] = useState(false);
 
   const redirectinig = () => {
     if (navigate) {
-      console.log("went to ", goto);
       return <Redirect to={goto} />;
     }
   };
@@ -30,4 +29,4 @@ const NavLink = ({ linkname, goto }) => {
   );
 };
 
-export default NavLink;
+export default MyNavLink;
