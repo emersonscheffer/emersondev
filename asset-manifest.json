@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/emersondev/static/css/main.7fb1d5ef.chunk.css",
-    "main.js": "/emersondev/static/js/main.2f3da821.chunk.js",
-    "main.js.map": "/emersondev/static/js/main.2f3da821.chunk.js.map",
+    "main.css": "/emersondev/static/css/main.a1acbf48.chunk.css",
+    "main.js": "/emersondev/static/js/main.f01eb111.chunk.js",
+    "main.js.map": "/emersondev/static/js/main.f01eb111.chunk.js.map",
     "runtime-main.js": "/emersondev/static/js/runtime-main.e9ecbcd1.js",
     "runtime-main.js.map": "/emersondev/static/js/runtime-main.e9ecbcd1.js.map",
     "static/js/2.b4fa5429.chunk.js": "/emersondev/static/js/2.b4fa5429.chunk.js",
     "static/js/2.b4fa5429.chunk.js.map": "/emersondev/static/js/2.b4fa5429.chunk.js.map",
     "index.html": "/emersondev/index.html",
-    "precache-manifest.13fe0322ec2530eda4fca01e7cbd6a99.js": "/emersondev/precache-manifest.13fe0322ec2530eda4fca01e7cbd6a99.js",
+    "precache-manifest.827662434b34edc45e6ddf0ebca2b13f.js": "/emersondev/precache-manifest.827662434b34edc45e6ddf0ebca2b13f.js",
     "service-worker.js": "/emersondev/service-worker.js",
-    "static/css/main.7fb1d5ef.chunk.css.map": "/emersondev/static/css/main.7fb1d5ef.chunk.css.map",
+    "static/css/main.a1acbf48.chunk.css.map": "/emersondev/static/css/main.a1acbf48.chunk.css.map",
     "static/js/2.b4fa5429.chunk.js.LICENSE.txt": "/emersondev/static/js/2.b4fa5429.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e9ecbcd1.js",
     "static/js/2.b4fa5429.chunk.js",
-    "static/css/main.7fb1d5ef.chunk.css",
-    "static/js/main.2f3da821.chunk.js"
+    "static/css/main.a1acbf48.chunk.css",
+    "static/js/main.f01eb111.chunk.js"
   ]
 }
