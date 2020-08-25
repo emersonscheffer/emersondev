@@ -1,14 +1,25 @@
 /* CSS */
 
 .header-class {
-    background-color: rgb(69, 126, 177);
-    display: grid;
-    height: 130px;
-    width: 100%;
-    grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  height: 130px;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.header-logo {
-    background-color: brown;
+.logo-container {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/2;
+  display: grid;
+}
+.logo-container img {
+    align-self: center;
+    justify-self: center;
+}
 
+.nav-links-container {
+  grid-column: 2/5;
+  justify-self: center;
+  align-self: center;
 }

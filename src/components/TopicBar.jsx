@@ -6,8 +6,9 @@ const TopicBar = ({ color }) => {
       style={{
         backgroundColor: color ? color : "black",
         width: "140px",
-        height: "7px",
-        borderRadius: "1px"
+        height: "3px",
+        borderRadius: "2px",
+        marginBottom: "10px"
       }}
     ></div>
   );

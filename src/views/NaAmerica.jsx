@@ -1,14 +1,31 @@
 import React from "react";
 
 import TopicBar from "../components/TopicBar";
-import MyNavLink from "../components/MyNavLink";
+
+import MyHeader from "../components/MyHeader";
+
+import { POLICY, SUPPORT, AZULCOLOR } from "../Constants";
+import Topic from "../components/Topic";
 
 const NaAmerica = () => {
+  let headerLinks = [
+    { name: POLICY, goto: "" },
+    { name: SUPPORT, goto: "" },
+  ];
+
   return (
     <div>
-      na amer ica
-      <TopicBar />
-      <MyNavLink linkname="Backkkc" />
+      <MyHeader
+        headerLinks={headerLinks}
+        logoImage={require("../images/naAmericaLogo.png")}
+        logoName="Na America"
+        hovercolor={AZULCOLOR}
+      />
+
+      <Topic word="Support" color={AZULCOLOR} />
+      <Topic word="Support" color={AZULCOLOR} />
+      <Topic word="Support" color={AZULCOLOR} />
+      
     </div>
   );
 };

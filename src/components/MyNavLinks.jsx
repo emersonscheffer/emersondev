@@ -1,35 +1,25 @@
 import React from "react";
-import NavLink from "./MyNavLink";
+import MyNavLink from "./MyNavLink";
 
-import "../css/HeaderCSS.css";
-
-import Logo from "./Logo";
-
-const Header = ({ headerLinks }) => {
+const MyNavLinks = ({ headerLinks, hovercolor }) => {
   // render all links
   const linksRender = () => {
     let linkArr = [];
 
     for (let index = 0; index < headerLinks.length; index++) {
       linkArr.push(
-        <NavLink
+        <MyNavLink
           key={headerLinks[index].name}
           linkname={headerLinks[index].name}
           goto={headerLinks[index].goto}
+          hovercolor={hovercolor}
         />
       );
     }
     return linkArr;
   };
 
-  // return
-  return (
-    <div className="header-class">
-      <Logo logoSrc="./imgz/logos/lacounty.png" logoName="Emerson DEV" />
-
-      {linksRender()}
-    </div>
-  );
+  return <div className="nav-links-container">{linksRender()}</div>;
 };
 
-export default Header;
+export default MyNavLinks;

@@ -2,8 +2,12 @@ import React from "react";
 
 const Logo = ({ logoSrc, logoName }) => {
   return (
-    <div>
-      <img src={logoSrc} alt={logoName} />
+    <div className="logo-container">
+      <img
+        style={{ width: "80%", height: "auto" }}
+        src={logoSrc}
+        alt={logoName}
+      />
     </div>
   );
 };
