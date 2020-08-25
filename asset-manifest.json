@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/emersondev/static/css/main.a1acbf48.chunk.css",
-    "main.js": "/emersondev/static/js/main.c1203d6d.chunk.js",
-    "main.js.map": "/emersondev/static/js/main.c1203d6d.chunk.js.map",
+    "main.js": "/emersondev/static/js/main.6e7af160.chunk.js",
+    "main.js.map": "/emersondev/static/js/main.6e7af160.chunk.js.map",
     "runtime-main.js": "/emersondev/static/js/runtime-main.e9ecbcd1.js",
     "runtime-main.js.map": "/emersondev/static/js/runtime-main.e9ecbcd1.js.map",
     "static/js/2.ba932ea0.chunk.js": "/emersondev/static/js/2.ba932ea0.chunk.js",
     "static/js/2.ba932ea0.chunk.js.map": "/emersondev/static/js/2.ba932ea0.chunk.js.map",
     "index.html": "/emersondev/index.html",
-    "precache-manifest.fa9be26a2c370c42f97ddfda5578f93a.js": "/emersondev/precache-manifest.fa9be26a2c370c42f97ddfda5578f93a.js",
+    "precache-manifest.77392b0009d7cc3d1a14c0564d2d5c7c.js": "/emersondev/precache-manifest.77392b0009d7cc3d1a14c0564d2d5c7c.js",
     "service-worker.js": "/emersondev/service-worker.js",
     "static/css/main.a1acbf48.chunk.css.map": "/emersondev/static/css/main.a1acbf48.chunk.css.map",
     "static/js/2.ba932ea0.chunk.js.LICENSE.txt": "/emersondev/static/js/2.ba932ea0.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.e9ecbcd1.js",
     "static/js/2.ba932ea0.chunk.js",
     "static/css/main.a1acbf48.chunk.css",
-    "static/js/main.c1203d6d.chunk.js"
+    "static/js/main.6e7af160.chunk.js"
   ]
 }
