@@ -8,6 +8,8 @@ import "./css/LinkGeneral.css";
 import EmersonDev from "./views/EmersonDev";
 import NaAmerica from "./views/NaAmerica";
 import IosApps from "./views/IosApps";
+import NaAmericaPolicy from "./views/NaAmericaPolicy";
+import NaAmericaSupport from "./views/NaAmericaSupport";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
 
         <Route path="/iosapps" component={IosApps} />
         <Route path="/naamerica" component={NaAmerica} />
+        <Route path="/naamericapolicy" component={NaAmericaPolicy} />
+        <Route path="/naamericasupport" component={NaAmericaSupport} />
       </Router>
     </div>
   );

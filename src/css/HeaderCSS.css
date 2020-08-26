@@ -5,6 +5,7 @@
   height: 130px;
   width: 100%;
   grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 40px;
 }
 
 .logo-container {
