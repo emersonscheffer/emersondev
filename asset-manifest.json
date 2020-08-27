@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/emersondev/static/css/main.ed46d5d5.chunk.css",
-    "main.js": "/emersondev/static/js/main.43fa682a.chunk.js",
-    "main.js.map": "/emersondev/static/js/main.43fa682a.chunk.js.map",
+    "main.js": "/emersondev/static/js/main.ff1a0715.chunk.js",
+    "main.js.map": "/emersondev/static/js/main.ff1a0715.chunk.js.map",
     "runtime-main.js": "/emersondev/static/js/runtime-main.e9ecbcd1.js",
     "runtime-main.js.map": "/emersondev/static/js/runtime-main.e9ecbcd1.js.map",
-    "static/js/2.4cb01ce2.chunk.js": "/emersondev/static/js/2.4cb01ce2.chunk.js",
-    "static/js/2.4cb01ce2.chunk.js.map": "/emersondev/static/js/2.4cb01ce2.chunk.js.map",
+    "static/js/2.e379a8f1.chunk.js": "/emersondev/static/js/2.e379a8f1.chunk.js",
+    "static/js/2.e379a8f1.chunk.js.map": "/emersondev/static/js/2.e379a8f1.chunk.js.map",
     "index.html": "/emersondev/index.html",
-    "precache-manifest.8fba87b87453cd808a3fda08e23ae395.js": "/emersondev/precache-manifest.8fba87b87453cd808a3fda08e23ae395.js",
+    "precache-manifest.d4f7b49289cade0f1a1ce67c0b1921bc.js": "/emersondev/precache-manifest.d4f7b49289cade0f1a1ce67c0b1921bc.js",
     "service-worker.js": "/emersondev/service-worker.js",
     "static/css/main.ed46d5d5.chunk.css.map": "/emersondev/static/css/main.ed46d5d5.chunk.css.map",
-    "static/js/2.4cb01ce2.chunk.js.LICENSE.txt": "/emersondev/static/js/2.4cb01ce2.chunk.js.LICENSE.txt",
+    "static/js/2.e379a8f1.chunk.js.LICENSE.txt": "/emersondev/static/js/2.e379a8f1.chunk.js.LICENSE.txt",
+    "static/media/Simulator.png": "/emersondev/static/media/Simulator.52d41062.png",
     "static/media/naAmericaLogo.png": "/emersondev/static/media/naAmericaLogo.da3af274.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e9ecbcd1.js",
-    "static/js/2.4cb01ce2.chunk.js",
+    "static/js/2.e379a8f1.chunk.js",
     "static/css/main.ed46d5d5.chunk.css",
-    "static/js/main.43fa682a.chunk.js"
+    "static/js/main.ff1a0715.chunk.js"
   ]
 }
