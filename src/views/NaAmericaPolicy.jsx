@@ -8,7 +8,7 @@ import MyParagraph from "../components/MyParagraph";
 const NaAmericaPolicy = () => {
   let headerLinks = [
     { name: POLICY, goto: "/naamericapolicy" },
-    { name: SUPPORT, goto: "naamericasupport" },
+    { name: SUPPORT, goto: "/naamericasupport" },
   ];
 
   return (
@@ -63,20 +63,15 @@ Post or the author of the comment added to the post."
       <MyParagraph
         paragraphWords="Na America does not share, or collect the user's telephone number.
 The user's telephone number is not required for the sign up or login procedures.
-If the user hasn't done so and decides to be contacted via telephone, a prompt will pop up so the user can entered his/her telephone number."
+If the user hasn't done so and decides to be contacted via telephone, a prompt will pop up so the user can enter his/her telephone number."
       />
 
       <Topic word="Deleting account" color={AZULCOLOR} />
       <MyParagraph
-        paragraphWords="If the user decides and requests, Na America will delete all the user's data stored. Na America can take up to 30 days to delete all the user's data. The user won't be able to create another account for the next 60 days from the date the data was erased from the database. For faster deletion of the data, the user can delete ads information and Mural posts and comments using the app."
+        paragraphWords="If the user decides and requests, Na America will delete all the user's data stored. Na America can take up to 30 days to delete all the user's data. The user won't be able to create another account for the next 60 days from the date the data was erased from the database. For faster deletion of the data, the user can delete ads information and Mural posts as well as comments using the app."
       />
     </div>
   );
 };
 
 export default NaAmericaPolicy;
-
-//
-
-//
-//

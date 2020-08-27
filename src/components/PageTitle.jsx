@@ -7,7 +7,7 @@ const PageTitle = ({ title }) => {
         fontSize: "25px",
         fontWeight: "bold",
         fontFamily: "Arial",
-        marginBottom: "10px"
+        marginBottom: "30px"
       }}
     >
       {title}

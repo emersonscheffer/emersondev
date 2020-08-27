@@ -1,17 +1,20 @@
-import React from 'react'
+import React from "react";
 
 import { POLICY, SUPPORT, AZULCOLOR } from "../Constants";
 import PageTitle from "../components/PageTitle";
 import MyHeader from "../components/MyHeader";
+import Topic from "../components/Topic";
+import MyParagraph from "../components/MyParagraph";
 
 const NaAmericaSupport = () => {
-    let headerLinks = [
-        { name: POLICY, goto: "/naamericapolicy" },
-        { name: SUPPORT, goto: "naamericasupport" },
-      ];
+  let headerLinks = [
+    { name: POLICY, goto: "/naamericapolicy" },
+    { name: SUPPORT, goto: "/naamericasupport" },
+  ];
 
-    return <div>
-        <MyHeader
+  return (
+    <div>
+      <MyHeader
         headerLinks={headerLinks}
         logoImage={require("../images/naAmericaLogo.png")}
         logoName="Na America"
@@ -19,8 +22,15 @@ const NaAmericaSupport = () => {
         barColor={AZULCOLOR}
       />
 
-<PageTitle title="Na America Support" />
-    </div>
-}
+      <PageTitle title="Na America Support" />
+      <Topic word="Need help with Na America?" color={AZULCOLOR} />
+      <MyParagraph paragraphWords="The Na America manual is a great place to start if you need help with the application." />
 
-export default NaAmericaSupport
+      <MyParagraph
+        paragraphWords="If you have any questions that the manual doesn't cover please do not hesitate to contact us."
+      />
+    </div>
+  );
+};
+
+export default NaAmericaSupport;

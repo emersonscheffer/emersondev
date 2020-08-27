@@ -7,6 +7,6 @@ export const CONCEPTS = "Concepts"
 
 // Na America Nav Links
 export const SUPPORT = "Support"
-export const POLICY = "Private Policy"
+export const POLICY = "Privacy Policy"
 
 
