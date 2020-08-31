@@ -10,6 +10,7 @@ import NaAmerica from "./views/NaAmerica";
 import IosApps from "./views/IosApps";
 import NaAmericaPolicy from "./views/NaAmericaPolicy";
 import NaAmericaSupport from "./views/NaAmericaSupport";
+import NaAmericaManual from "./views/NaAmericaManual";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/naamerica" component={NaAmerica} />
         <Route path="/naamericapolicy" component={NaAmericaPolicy} />
         <Route path="/naamericasupport" component={NaAmericaSupport} />
+        <Route path="/naamericamanual" component={NaAmericaManual} />
       </Router>
     </div>
   );

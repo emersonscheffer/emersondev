@@ -1,23 +1,22 @@
 import React, { useState } from "react";
 import { Redirect } from "react-router-dom";
 
-
 const MyNavLink = ({ linkname, goto, hovercolor }) => {
   const [navigate, setNavigate] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
 
-  const redirectinig = () => {
+  const redirecting = () => {
     if (navigate) {
       return <Redirect to={goto} />;
     }
   };
 
   const styleLink = {
-    color: "black"
+    color: "black",
   };
 
   const hoverState = {
-    color: hovercolor
+    color: hovercolor,
   };
 
   return (
@@ -28,7 +27,7 @@ const MyNavLink = ({ linkname, goto, hovercolor }) => {
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >
-      {redirectinig()}
+      {redirecting()}
       <h1>{linkname}</h1>
     </div>
   );

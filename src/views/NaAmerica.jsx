@@ -1,7 +1,5 @@
 import React from "react";
 
-import TopicBar from "../components/TopicBar";
-
 import MyHeader from "../components/MyHeader";
 
 import { POLICY, SUPPORT, AZULCOLOR } from "../Constants";
@@ -23,12 +21,11 @@ const NaAmerica = () => {
         hovercolor={AZULCOLOR}
       />
 
-      <PageTitle title="Private Policy"/>
+      <PageTitle title="Private Policy" />
 
       <Topic word="Support" color={AZULCOLOR} />
       <Topic word="Support" color={AZULCOLOR} />
       <Topic word="Support" color={AZULCOLOR} />
-      
     </div>
   );
 };
