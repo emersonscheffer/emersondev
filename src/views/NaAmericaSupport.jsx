@@ -7,6 +7,7 @@ import MyHeader from "../components/MyHeader";
 import Topic from "../components/Topic";
 import MyParagraph from "../components/MyParagraph";
 import MyBtns from "../components/MyBtns";
+import MyFooter from "../components/MyFooter";
 
 const NaAmericaSupport = () => {
   const [manualNav, setManualNav] = useState(false);
@@ -49,6 +50,9 @@ const NaAmericaSupport = () => {
       />
 
       <MyParagraph paragraphWords="If you have any questions that the manual doesn't cover please do not hesitate to contact us." />
+
+      <MyFooter />
+
     </div>
   );
 };

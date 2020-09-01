@@ -3,13 +3,12 @@ import React from "react";
 import MyHeader from "../components/MyHeader";
 
 import { POLICY, SUPPORT, AZULCOLOR } from "../Constants";
-import Topic from "../components/Topic";
 import PageTitle from "../components/PageTitle";
 
 const NaAmerica = () => {
   let headerLinks = [
     { name: POLICY, goto: "/naamericapolicy" },
-    { name: SUPPORT, goto: "" },
+    { name: SUPPORT, goto: "/naamericasupport" },
   ];
 
   return (
@@ -21,11 +20,9 @@ const NaAmerica = () => {
         hovercolor={AZULCOLOR}
       />
 
-      <PageTitle title="Private Policy" />
+      <PageTitle title="Welcome to Na America" />
 
-      <Topic word="Support" color={AZULCOLOR} />
-      <Topic word="Support" color={AZULCOLOR} />
-      <Topic word="Support" color={AZULCOLOR} />
+      
     </div>
   );
 };
