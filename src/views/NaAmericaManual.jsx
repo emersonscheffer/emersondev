@@ -31,6 +31,8 @@ const NaAmericaManual = () => {
 
       {/* <Topic word="Signing Out" color={AZULCOLOR} /> */}
 
+      <Topic word="Adding an Anuncio" color={AZULCOLOR} />
+
       <MyParagraph paragraphWords="Meus Anúncios tab is where you can add, delete or edit your ads." />
 
       <MyPicture
@@ -100,8 +102,6 @@ Leave unselected or select if the payment is weekly or monthly."
         paragraphWords="Tap salvar button on the bottom of the screen to save the description, the price and price plan.
 "
       />
-
-      <Topic word="Contact" color={AZULCOLOR} />
 
       <MyParagraph paragraphWords="Select how you want to be reached. You have three options: select via telephone or email, telephone , or just email." />
 

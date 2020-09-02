@@ -43,11 +43,11 @@ const NaAmericaSupport = () => {
         btnTitle="Read Manual"
         btnColor={REDCOLOR}
       />
-      <MyBtns
+      {/* <MyBtns
         btnTitleColor="white"
         btnTitle="Contact us"
         btnColor={GRAYCOLOR}
-      />
+      /> */}
 
       <MyParagraph paragraphWords="If you have any questions that the manual doesn't cover please do not hesitate to contact us." />
 
