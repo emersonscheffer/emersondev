@@ -1,4 +1,5 @@
 import React from "react";
+import Canvas from "../components/Canvas";
 //import Footer from "../components/Footer";
 import Header from "../components/MyHeader";
 
@@ -17,6 +18,7 @@ const EmersonDev = () => {
       <br />
       Emerson Dev
       <br />
+      <Canvas />
       {/* <Footer /> */}
     </div>
   );
